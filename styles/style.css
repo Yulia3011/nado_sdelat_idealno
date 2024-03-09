@@ -29,7 +29,6 @@ body::before {
     grid-column: 1/13;
     grid-row: 1/13;
     z-index: -1;
-    justify-content: center;
 }
 
 .title::after {
