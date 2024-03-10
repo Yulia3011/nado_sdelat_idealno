@@ -7,11 +7,11 @@ body::before {
 } 
 
 .title {
-    font-size: 116px;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 136.18px;
-    letter-spacing: 4px;
+    font-size: 116px;
+    line-height: 1.17em;
+    letter-spacing: 0.034em;
     text-align: center;
     margin-top: 60px;
     grid-column: 1/13;
@@ -19,6 +19,7 @@ body::before {
     z-index: 1;
     justify-self: center;
     align-self: start;
+    max-width: 740px;
 }
 
 .cover-video {
@@ -39,12 +40,13 @@ body::before {
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
     white-space: pre;
     background-color: white;
-    box-shadow: 0px 14px 0 black;
-    border: 2px solid black;
+    color: black;
+    box-shadow: 0px 14px 0 currentColor;
+    border: 2px solid currentColor;
     border-radius: 20px;
     padding: 36px 44px;
     font-size: 35px;
-    line-height: 35px;
+    line-height: 1em;
     letter-spacing: normal;
     font-weight: normal;
     text-transform: none;
@@ -57,4 +59,5 @@ body::before {
 
 .title:hover {
     color: #4C4C4C;
+    cursor: default;
 }
